@@ -3,13 +3,8 @@
 This project is a backend service for managing a scheduling system inspired by **Noto**. It handles event scheduling on a calendar, specifically for educational sessions, such as group and private classes.
 
 ## 📚 Features
-
-#### **Endpoint**
 - Implement at least one core API endpoint to handle scheduling functionality (e.g., creating or retrieving scheduled sessions).
 - You are encouraged to add additional endpoints if they improve the overall design or user experience.
-
-### **Testing**
-- Include test cases or test scripts to demonstrate that your backend service functions as expected.
 
 ## 🔌 Mock API Integration
 
@@ -68,3 +63,5 @@ At a high level, your submission should include:
 - A concise explanation of how your scheduling logic works.
 
 - You are expected to make reasonable decisions about scope, edge cases, and any missing details.
+
+- Include test cases or test scripts to demonstrate that your backend service functions as expected.
