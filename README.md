@@ -1,18 +1,28 @@
 # Scheduling System Backend Service
 
-This project is a backend service for managing a scheduling system inspired by **Noto**. It handles event scheduling on a calendar, specifically for educational sessions, such as group and private classes.
+This project is a backend service for managing a scheduling system inspired by **Noto**.
 
-## 📚 Features
-- Implement at least one core API endpoint to handle scheduling functionality (e.g., creating or retrieving scheduled sessions).
-- You are encouraged to add additional endpoints if they improve the overall design or user experience.
+## Context
 
-## 🔌 Mock API Integration
+1. This app is for the owner/administrator of a tutoring center
+2. This user is the central person who does the scheduling for all of our clients and instructors
+3. This scheduling system will be for private lessons only: one instructor and one student
+
+## Task + Requirements
+
+Implement the backend service that fulfills the product requirements below
+
+1. Create lessons, which would be one off or recurring (Tuesday's at 3PM)
+2. Reschedule lessons, which might be for one lesson or for a batch (Tuesdays at 3PM -> Tuesdays at 4PM)
+3. Delete lessons, which follows the same pattern as before
+
+## 🔌 API's that you can assume exist
 
 #### **Endpoint**
 `GET /staff-availability`
 
 #### **Purpose**
-Retrieve the availability of each staff member. Please implement a mock API with below response format.
+Retrieve the availability of each staff member. You can implement/mock an API with below response format.
 
 #### **Response Format**
 ```json
@@ -67,5 +77,9 @@ At a high level, your submission should include:
 ## Expectations
 - You are encouraged to use whichever AI tool you prefer to help with the task.
 - You are not expected to spend more than 2-4 hours on the takehome.
-- The project is intentinoally very open-ended, so prioritize whatever you can within the time constraints. 
+- The project is intentinoally very open-ended, so prioritize whatever you can within the time constraints.
+
+## Bonus points
+
+- a frontend app
 
