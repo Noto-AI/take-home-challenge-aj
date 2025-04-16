@@ -41,11 +41,9 @@ Retrieve the availability of each staff member. Please implement a mock API with
 
 ### Setup Instructions
 
-1. create a bare clone of the repo: `git clone --bare git@github.com:Noto-AI/take-home-challenge-scheduler.git`.
-2. Create a new private repository on Github for this take home challenge.
-3. Mirror push your bare clone to your new git repo: `git push --mirror git@github.com:<your_username>/take-home-challenge-scheduler.git`.
-4. Remove the temporary local repository you created in step 1 and clone your own take-home-challenge-1 repository on your machine.
-5. when you finish your challenge, just open a pull request of your work, and add stevenwang223 as collaborator to view your PR. 
+	1.	Push your implementation to your GitHub repo alone along with a copy of this README
+	2.	Open a pull request with a brief summary of your work and any assumptions.
+	3.	Add stevenwang223 as a collaborator so we can access and review your PR.
 
 ### Assumptions
 In cases where the problem description is ambiguous or incomplete, feel free to make reasonable assumptions based on your judgment. Document any such assumptions in this section to clarify your design decisions and implementation approach.
@@ -58,10 +56,16 @@ At a high level, your submission should include:
 
 - Integration with the mock staff availability API.
 
-- Clear documentation outlining setup, API usage, and assumptions made.
+- Clear documentation outlining setup, API usage, and assumptions made. 
 
 - A concise explanation of how your scheduling logic works.
 
 - You are expected to make reasonable decisions about scope, edge cases, and any missing details.
 
 - Include test cases or test scripts to demonstrate that your backend service functions as expected.
+
+## Expectations
+- You are encouraged to use whichever AI tool you prefer to help with the task.
+- You are not expected to spend more than 2-4 hours on the takehome.
+- The project is intentinoally very open-ended, so prioritize whatever you can within the time constraints. 
+
